@@ -1,8 +1,9 @@
 --- 
 title: "Making free books with RStudio’s RMarkdown & Bookdown"
-author: "Julie Lowndes"
+author: "Julie Lowndes & Егорыч"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+lang: "ru"
 # output: bookdown::gitbook
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -10,11 +11,24 @@ biblio-style: apalike
 link-citations: yes
 github-repo: openscapes/series
 description: "A mini bookdown tutorial book on how to make bookdown books."
+mainfont: "Times New Roman"
+monofont: "Courier Prime"
+monofontoptions: Scale=0.7
+fontsize: 12pt
+papersize: a4
+geometry:
+- top=1in
+- left=0.7in
+- right=0.7in
+- bottom=1in
+include-before: null
 ---
 
 # Welcome {#welcome}
 
 hi
+
+Это не мой Туториал и, пожоже, устарел  
 
 It's possible to create beautiful books for free using [RStudio's R Markdown](http://rmarkdown.rstudio.com/) and Yihui Xie's [bookdown](https://bookdown.org/yihui/bookdown/) and hosting them on [Github](http://github.com). This is pretty new and incredibly cool. It is a really powerful way to communicate science using the same reproducible workflow you use for your analyses and collaborations.
 
